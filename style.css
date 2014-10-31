@@ -1,0 +1,123 @@
+body{
+	font: 700 30px 'Times New Roman';
+	color: #835032;
+}
+.board{
+	width: 1110px;
+	height: 1110px;
+	position: relative;
+	background-image: url(wood.jpg);
+}
+.fields{
+	border: 5px solid rgba(0,0,0,.7);
+	width: 1000px;
+	height: 1000px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	margin: auto;
+}
+.field{
+	width: 12.5%;
+	height: 12.5%;
+	position: absolute;
+}
+.black{
+	background-color: rgba(0,0,0,.7);
+}
+.white{
+	background-color: rgba(255,255,255,.0);
+}
+.row-1{
+	top: 0;
+}
+.col-1{
+	left: 0;
+}
+.row-2{
+	top: 12.5%;
+}
+.col-2{
+	left: 12.5%;
+}
+.row-3{
+	top: 25%;
+}
+.col-3{
+	left: 25%;
+}
+.row-4{
+	top: 37.5%;
+}
+.col-4{
+	left: 37.5%;
+}
+.row-5{
+	top: 50%;
+}
+.col-5{
+	left: 50%;
+}
+.row-6{
+	top: 62.5%;
+}
+.col-6{
+	left: 62.5%;
+}
+.row-7{
+	top: 75%;
+}
+.col-7{
+	left: 75%;
+}
+.row-8{
+	top: 87.5%;
+}
+.col-8{
+	left: 87.5%;
+}
+.letter-top, .letter-bottom{
+	line-height: 55px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.letter-top{
+	bottom: 100%;
+}
+.letter-bottom{
+	top: 100%;
+}
+.number-left{
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	transform: translateY(-50%) translateX(-150%);
+}
+.number-right{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translateY(-50%) translateX(150%);
+}
+.checker{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.w{
+	background-color: #fff5c6;
+	box-shadow: 0 -3px 7px 0 rgba(0,0,0,.4), 0 4px 0 0 #c5b6a1;
+}
+.r{
+	background-color: #af4446;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,.4), 0 -4px 0 0 #7c3133;
+}
